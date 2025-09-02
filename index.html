@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>私のホームページ</h1>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">私について</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>ようこそ</h2>
+            <p>このサイトへお越しいただき、ありがとうございます。</p>
+            <button class="cta-button">詳しく見る</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>私について</h2>
+            <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+                <p>メール lyphardmelodie@gmail.com</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>サービス</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>正信偈・念仏和讃</h3>
+                    <p><a href="https://lyphard1.github.io/shoshinge-app/" target="_blank" rel="noopener">正信偈・念仏和讃</a></p>
+                </div>
+                <div class="service-item">
+                    <h3>サービス2</h3>
+                    <p>建設中</p>
+                </div>
+                <div class="service-item">
+                    <h3>サービス3</h3>
+                    <p>建設中</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <input type="text" placeholder="お名前" required>
+                <input type="email" placeholder="メールアドレス" required>
+                <textarea placeholder="メッセージ" rows="5" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 私のホームページ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
